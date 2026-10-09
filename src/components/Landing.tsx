@@ -1,6 +1,7 @@
 import { PropsWithChildren } from "react";
 import "./styles/Landing.css";
 import { config } from "../config";
+import Mascot from "./Mascot";
 
 const Landing = ({ children }: PropsWithChildren) => {
   const nameParts = config.developer.fullName.split(" ");
@@ -20,6 +21,19 @@ const Landing = ({ children }: PropsWithChildren) => {
               {lastName && <span>{lastName.toUpperCase()}</span>}
             </h1>
           </div>
+
+          {/* Interactive Chibi Mascot Centerpiece */}
+          <div className="hero-mascot-wrapper">
+            <div className="hero-mascot-glow"></div>
+            <Mascot
+              directions="/mascots/adarsh-directions.webp"
+              reactions="/mascots/adarsh-reactions.webp"
+              size={360}
+              className="hero-mascot-element"
+              label="Adarsh S Mascot"
+            />
+          </div>
+
           <div className="landing-info">
             <h3>An</h3>
             <h2 className="landing-info-h2">
@@ -28,16 +42,6 @@ const Landing = ({ children }: PropsWithChildren) => {
             <h2>
               <div className="landing-h2-info">Full-Stack Developer</div>
             </h2>
-          </div>
-          {/* Mobile photo - shows only on mobile when 3D character is hidden */}
-          <div className="mobile-photo">
-            <img
-              src="/images/adarsh.jpg"
-              alt={config.developer.fullName}
-              loading="eager"
-              fetchPriority="high"
-              decoding="async"
-            />
           </div>
         </div>
         {children}
