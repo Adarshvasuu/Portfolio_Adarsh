@@ -1,192 +1,127 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Adarsh",
+        fullName: "Adarsh S",
+        title: "AI & Data Science Student | Full Stack Web Developer",
+        description: "Second-year B.Tech undergraduate in Artificial Intelligence & Data Science at J.N.N Institute of Engineering. Proven track record building and deploying production-grade web applications for real clients, spearheading engineering teams at Smart India Hackathon 2026, and crafting high-craft interactive digital experiences with React, TypeScript, and modern motion design."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "Adarshvasuu",
+        email: "vasuadarsh522@gmail.com",
+        location: "Chennai, Tamil Nadu, India"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a second-year B.Tech undergraduate in Artificial Intelligence & Data Science at J.N.N Institute of Engineering, Chennai. I specialize in building intuitive, high-performance web products and intelligent software systems. With a strong foundation in React, TypeScript, Tailwind CSS, Python, and data science, I have built and deployed live client platforms (such as Entice HR Solutions), led engineering teams to success at Smart India Hackathon 2026 with Vyabar Mitr, and created modern algorithmic web experiences. Passionate about AI-driven applications, clean engineering, and pixel-perfect digital craft."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
+            position: "Full Stack Developer Intern",
+            company: "Entice Innovations — Entice HR Solutions",
+            period: "Aug 2026",
+            location: "Chennai, India",
+            description: "Architected, engineered, and deployed the official production corporate web platform for Entice HR Solutions (www.enticehr.com) from scratch.",
+            responsibilities: [
+                "Authored 5 complete, responsive views (Home, About, Services, Blogs, Contact) using React, TypeScript, and Tailwind CSS",
+                "Created an automated lead intake pipeline linking frontend form submissions directly to a Google Sheets backend",
+                "Conducted Lighthouse performance audits, configured production domain routing, and successfully delivered codebase"
+            ],
+            technologies: ["React", "TypeScript", "Tailwind CSS", "SEO", "Google Sheets Sync"]
+        },
+        {
+            position: "Team Lead — Vyabar Mitr",
+            company: "Smart India Hackathon 2026",
+            period: "2026",
+            location: "India",
+            description: "Spearheaded a multidisciplinary engineering team addressing micro-enterprise commerce friction and real-world trade logistics at national hackathon.",
+            responsibilities: [
+                "Orchestrated development roadmap, sprint task allocation, and core technical architecture",
+                "Engineered end-to-end user experience and intelligent trade assistance logic",
+                "Delivered interactive prototype and live pitch presentation for national jury evaluation"
+            ],
+            technologies: ["Team Leadership", "Solution Architecture", "Full Stack", "Problem Solving"]
+        },
+        {
+            position: "B.Tech in Artificial Intelligence & Data Science",
+            company: "J.N.N Institute of Engineering",
             period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            location: "Chennai, India",
+            description: "Undergraduate degree focusing on artificial intelligence, algorithmic problem solving, web systems, and data analytics with academic excellence.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Maintained exceptional academic record: Semester 1 GPA 9.37 / 10, Semester 2 GPA 8.71 / 10",
+                "Active participant in technical symposiums, hackathons, and software development projects",
+                "Hands-on coursework in Data Structures, Python, Machine Learning, and Web Architecture"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
-        },
-        {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Artificial Intelligence", "Data Science", "Python", "Data Structures", "Web Systems"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
+            title: "Vyabar Mitr",
+            category: "AI & Solution Architecture",
+            technologies: "Team Lead, AI Architecture, Full Stack, SIH 2026",
             image: "/images/Drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali.",
-            link: "https://huggingface.co/red1-for-hek/drishti-ilm-x1"
+            description: "Spearheaded a multidisciplinary engineering team to design and build an intelligent commerce and trade assistance software solution for the national Smart India Hackathon 2026.",
+            link: "https://github.com/Adarshvasuu"
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/VoteChain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking.",
-            link: "https://github.com/red1-for-hek/smart-election-by-blockchain"
+            title: "Entice HR Solutions",
+            category: "Corporate Web Platform",
+            technologies: "React, TypeScript, Tailwind CSS, Motion, Google Sheets Sync",
+            image: "/images/entice.png",
+            description: "Designed, engineered, and deployed the official production corporate web platform for Entice HR Solutions (www.enticehr.com), complete with 5 responsive routes and automated lead intake.",
+            link: "https://www.enticehr.com"
+        },
+        {
+            id: 3,
+            title: "JobConnect",
+            category: "Recruitment Portal",
+            technologies: "React, JavaScript, CRUD Operations, Search & Filter Pipelines",
+            image: "/images/Prodesk.png",
+            description: "Comprehensive recruitment platform facilitating job searches, candidate profile management, dynamic application pipelines, and CRUD administrative workflows.",
+            link: "https://github.com/Adarshvasuu/Jobconnect-"
         },
         {
             id: 4,
-            title: "Flood Spaces 2.0",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/FloodSpaces.png",
-            description: "Predicts flood risks across Bangladesh up to one month in advance and sends early alerts to help people prepare.",
-            link: "https://github.com/red1-for-hek/Flood-Spaces-2.0"
+            title: "ReverseMarket",
+            category: "Algorithmic Marketplace",
+            technologies: "React, WebGL, Framer Motion, Algorithmic Scoring, Vite",
+            image: "/images/VoteChain.png",
+            description: "Innovative procurement engine flipping the buyer-seller paradigm with dynamic multi-criteria weighting, real-time match scoring, and Componentry WebGL Spectral Ribbon atmosphere.",
+            link: "https://github.com/Adarshvasuu/reversemarket"
         },
         {
             id: 5,
-            title: "Phoenix 3.0",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/Phoenix3.0.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience.",
-            link: "https://github.com/red1-for-hek/phoenix3.0"
-        },
-        {
-            id: 6,
             title: "RedxChess",
             category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
+            technologies: "React, Three.js, Chess.js, Stockfish, Canvas",
             image: "/images/RedxChess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
+            description: "Interactive 3D chess simulator and AI match engine with move evaluation and integrated interactive persona.",
             link: "/play"
-        },
-        {
-            id: 7,
-            title: "Prodesk",
-            category: "E-commerce",
-            technologies: "React, Node.js, MongoDB, Express, Stripe",
-            image: "/images/Prodesk.png",
-            description: "A complete e-commerce platform with secure checkout and smooth product browsing.",
-            link: "https://github.com/red1-for-hek/prodesk"
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
-            link: ""
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "vasuadarsh522@gmail.com",
+        github: "https://github.com/Adarshvasuu",
+        linkedin: "https://linkedin.com/in/adarsh-s-060961392",
+        twitter: "https://github.com/Adarshvasuu",
+        facebook: "https://github.com/Adarshvasuu",
+        instagram: "https://github.com/Adarshvasuu"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "AI & DATA SCIENCE",
+            description: "Building intelligent systems & data solutions",
+            details: "Specializing in Artificial Intelligence and Data Science at J.N.N Institute of Engineering. Building predictive workflows, analytical models, and intelligent automated tools with Python and machine learning.",
+            tools: ["Python", "AI & Data Science", "Machine Learning", "Data Analysis", "TypeScript", "JavaScript", "Java", "Git & GitHub", "GitHub Copilot"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "FULL-STACK WEB",
+            description: "Modern interactive web development & client products",
+            details: "Engineering responsive, performant web applications using React, TypeScript, Tailwind CSS, and Framer Motion. Experienced in shipping production websites for real enterprise clients.",
+            tools: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML5 & CSS3", "WebGL / Canvas", "Vite", "REST APIs", "Modern UI/UX"]
         }
     }
 };
-
-
